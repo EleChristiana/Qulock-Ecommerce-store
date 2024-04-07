@@ -7,6 +7,7 @@
 }
 body {
   background-color: #425642;
+  width: 100%;
 }
 
 header {
@@ -83,7 +84,7 @@ a:hover {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 2fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
   gap: 3rem;
   width: 100%;
   flex-wrap: wrap;
@@ -94,12 +95,16 @@ a:hover {
 .img-wrapper {
   position: relative;
   overflow: hidden;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
 }
 
 .img-wrapper > img {
   display: block;
   width: 100%;
-  aspect-ratio: 2 / 2;
+  aspect-ratio: 1 / 1;
   object-fit: cover;
   object-position: center;
 }
@@ -107,7 +112,7 @@ a:hover {
 .img-wrapper > .content {
   position: absolute;
   inset: 0;
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding: 1rem;
   background: rgba(255, 255, 255, 0.4);
   display: flex;
@@ -117,7 +122,7 @@ a:hover {
 
 .img-wrapper > img,
 .img-wrapper > .content {
-  transition: 200ms ease-in-out;
+  transition: 150ms ease-in-out;
 }
 
 .img-wrapper:hover > img.blur {
@@ -129,7 +134,7 @@ a:hover {
 }
 
 .img-wrapper:hover > img.zoom {
-  transform: scale(1.1);
+  transform: scale(1);
 }
 
 .img-wrapper > .content.fade {
@@ -243,7 +248,10 @@ video {
 .product-img {
   display: flex;
   gap: 4rem;
-  width: 500px;
+  width: 800px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
 }
 
 .main-contact-info {
@@ -333,7 +341,8 @@ a {
   }
   .product-img {
     display: block;
-    width: 300px;
+    /* width: 300px; */
+    width: 200px;
   }
 
   .navbar {
