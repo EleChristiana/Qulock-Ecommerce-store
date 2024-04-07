@@ -52,8 +52,41 @@ a:hover {
   width: 100%;
   height: 869px;
   flex-shrink: 0;
+  position: relative;
 }
-
+.text-22 h4 {
+  color: #fff;
+  font-size: 2rem;
+}
+.text-22 {
+  padding: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.text-22 p {
+  color: #fff;
+  /* background-color: #fff; */
+  font-size: 1.5rem;
+}
+.hero-section .text-22 {
+  position: absolute;
+  top: 10rem;
+  left: 8rem;
+}
+.text-22 button {
+  padding: 1rem;
+  color: #425642;
+  border-radius: 10px;
+  border: none;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  margin-right: 3.5rem;
+}
 #h1tag2 {
   display: flex;
   justify-content: center;

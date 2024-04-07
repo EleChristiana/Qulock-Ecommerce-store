@@ -19,3 +19,14 @@ function sendMessage(){
 
 sendMessage();
 
+
+
+function sendMessageAgain(){
+    let button = document.querySelector('.btns');
+    button.addEventListener('click', (event)=> {
+        location.href ="https://wa.link/2ntwgl"
+    })
+}
+
+sendMessageAgain();
+
