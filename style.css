@@ -8,6 +8,7 @@
 body {
   background-color: #425642;
   width: 100%;
+  font-family: "Poppins", sans-serif;
 }
 
 header {
@@ -36,6 +37,11 @@ li {
   line-height: normal;
 }
 
+/* a,
+li:hover::after {
+  border-bottom: 2px solid #fff;
+} */
+
 .menu-icon {
   fill: #ffff;
 }
@@ -46,6 +52,7 @@ a {
 
 a:hover {
   color: red;
+  border-bottom: 2px solid #c50808;
 }
 
 .hero-section img {
@@ -86,6 +93,10 @@ a:hover {
   align-items: center;
   display: flex;
   margin-right: 3.5rem;
+}
+.text-22 button:hover {
+  background-color: #425642;
+  color: #fff;
 }
 #h1tag2 {
   display: flex;

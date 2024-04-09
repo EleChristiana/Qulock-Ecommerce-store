@@ -3,7 +3,7 @@ const nav = document.querySelector('.navbar');
  
 function menuClick(){
    header.addEventListener('click', ()=>{
-    // header.innerHTML = "menu-icon" ? "X" : "menu-icon";
+   
    nav.classList.toggle('navbar');
  } )
 }
