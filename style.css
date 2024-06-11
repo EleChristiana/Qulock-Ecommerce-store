@@ -37,15 +37,6 @@ li {
   line-height: normal;
 }
 
-/* a,
-li:hover::after {
-  border-bottom: 2px solid #fff;
-} */
-
-/* .menu-icon {
-  fill: white;
-} */
-
 a {
   color: white;
 }
@@ -267,6 +258,10 @@ a:hover {
   border-radius: 10px;
 }
 
+iframe {
+  padding: 2em;
+}
+
 .video_text1:hover {
   color: red;
   font-size: 2rem;
@@ -395,6 +390,10 @@ a {
   }
   .product {
     display: block;
+  }
+
+  .product li {
+    text-align: center;
   }
   .product-img {
     display: block;
